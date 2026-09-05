@@ -7,7 +7,7 @@ import axios from "axios";
 const apiBaseUrl =
   import.meta.env.VITE_API_URL ||
   (import.meta.env.PROD
-    ? "https://ai-resume-checker-backend-qm10.onrender.com/api"
+    ? "https://ai-analyzer-backend-a80m.onrender.com"
     : "/api");
 
 export const apiClient = axios.create({
