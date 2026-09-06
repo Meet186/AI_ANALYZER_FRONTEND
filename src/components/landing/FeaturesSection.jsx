@@ -76,7 +76,7 @@ export function FeaturesSection() {
         className="absolute -top-20 left-1/2 -translate-x-1/2 w-[900px] h-[480px] pointer-events-none -z-10"
         style={{
           background:
-            "radial-gradient(ellipse at center, rgba(143,179,156,0.18) 0%, rgba(143,179,156,0.06) 35%, transparent 70%)",
+            "radial-gradient(ellipse at center, rgba(102,167,245,0.18) 0%, rgba(102,167,245,0.06) 35%, transparent 70%)",
           filter: "blur(60px)",
         }}
       />
@@ -90,7 +90,7 @@ export function FeaturesSection() {
             <span
               style={{
                 backgroundImage:
-                  "linear-gradient(120deg, #5B7C6A 0%, #2F4A3A 60%, #5B7C6A 100%)",
+                  "linear-gradient(120deg, #79B4F4 0%, #1554AD 60%, #2474D8 100%)",
                 WebkitBackgroundClip: "text",
                 backgroundClip: "text",
                 WebkitTextFillColor: "transparent",
@@ -123,7 +123,7 @@ export function FeaturesSection() {
               className="absolute inset-x-0 top-0 h-px pointer-events-none"
               style={{
                 background:
-                  "linear-gradient(90deg, transparent, rgba(91,124,106,0.25), transparent)",
+                  "linear-gradient(90deg, transparent, rgba(36,116,216,0.25), transparent)",
               }}
             />
 
@@ -133,7 +133,7 @@ export function FeaturesSection() {
               className="absolute -top-24 -right-24 w-[260px] h-[260px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
               style={{
                 background:
-                  "radial-gradient(circle, rgba(143,179,156,0.28) 0%, rgba(143,179,156,0) 65%)",
+                  "radial-gradient(circle, rgba(102,167,245,0.28) 0%, rgba(102,167,245,0) 65%)",
                 filter: "blur(20px)",
               }}
             />

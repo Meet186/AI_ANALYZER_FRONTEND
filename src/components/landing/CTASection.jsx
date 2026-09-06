@@ -17,7 +17,7 @@ export function CTASection() {
           transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/8 border border-white/10 backdrop-blur-md"
         >
-          <span className="h-1.5 w-1.5 rounded-full bg-[#8FB39C]" />
+          <span className="h-1.5 w-1.5 rounded-full bg-[#79B4F4]" />
           <span className="text-[11px] tracking-wide text-white/85 uppercase font-semibold">
             Free forever for your first 3 analyses
           </span>
@@ -36,7 +36,7 @@ export function CTASection() {
           <span
             style={{
               backgroundImage:
-                "linear-gradient(120deg, #B6CFC0 0%, #8FB39C 50%, #5B7C6A 100%)",
+                "linear-gradient(120deg, #B8D8FF 0%, #79B4F4 50%, #2474D8 100%)",
               WebkitBackgroundClip: "text",
               backgroundClip: "text",
               WebkitTextFillColor: "transparent",
@@ -67,10 +67,10 @@ export function CTASection() {
         >
           <Link
             to="/register"
-            className="group relative inline-flex items-center gap-2 h-12 px-6 rounded-full font-semibold text-[14px] text-white shadow-[0_10px_30px_-8px_rgba(143,179,156,0.5)] hover:shadow-[0_14px_36px_-8px_rgba(143,179,156,0.7)] active:scale-[0.98] transition-all"
+            className="group relative inline-flex items-center gap-2 h-12 px-6 rounded-full font-semibold text-[14px] text-white shadow-[0_10px_30px_-8px_rgba(102,167,245,0.5)] hover:shadow-[0_14px_36px_-8px_rgba(102,167,245,0.7)] active:scale-[0.98] transition-all"
             style={{
               background:
-                "linear-gradient(135deg, #8FB39C 0%, #5B7C6A 55%, #2F4A3A 100%)",
+                "linear-gradient(135deg, #79B4F4 0%, #2474D8 55%, #1554AD 100%)",
             }}
           >
             <span
@@ -99,7 +99,7 @@ export function CTASection() {
           transition={{ duration: 0.6, delay: 0.25 }}
           className="mt-6 inline-flex items-center gap-1.5 text-[12px] text-white/50"
         >
-          <ShieldCheck size={13} className="text-[#8FB39C]" />
+          <ShieldCheck size={13} className="text-[#79B4F4]" />
           No credit card · We never store your resume PDF
         </motion.div>
       </DarkPanel>

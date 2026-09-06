@@ -10,7 +10,7 @@ export function DarkPanel({ className = "", children, glow = true, radius = "rou
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(135deg, #0b1411 0%, #12261d 28%, #214333 58%, #0d1412 100%)",
+            "linear-gradient(135deg, #081521 0%, #0f2740 28%, #1b496e 58%, #0b1726 100%)",
         }}
       />
 
@@ -20,7 +20,7 @@ export function DarkPanel({ className = "", children, glow = true, radius = "rou
             className="absolute -top-24 -right-24 w-[520px] h-[520px] rounded-full pointer-events-none"
             style={{
               background:
-                "radial-gradient(circle, rgba(181,224,198,0.34) 0%, rgba(123,177,151,0.18) 35%, transparent 72%)",
+                "radial-gradient(circle, rgba(164,205,255,0.34) 0%, rgba(99,167,245,0.18) 35%, transparent 72%)",
               filter: "blur(70px)",
             }}
             animate={{ x: [0, 26, 0], y: [0, 18, 0], opacity: [0.45, 0.75, 0.45] }}
@@ -30,7 +30,7 @@ export function DarkPanel({ className = "", children, glow = true, radius = "rou
             className="absolute -bottom-32 -left-28 w-[480px] h-[480px] rounded-full pointer-events-none"
             style={{
               background:
-                "radial-gradient(circle, rgba(149,196,171,0.34) 0%, rgba(80,118,102,0.18) 38%, transparent 72%)",
+                "radial-gradient(circle, rgba(94,177,225,0.34) 0%, rgba(40,116,177,0.18) 38%, transparent 72%)",
               filter: "blur(70px)",
             }}
             animate={{ x: [0, -26, 0], y: [0, -24, 0], opacity: [0.4, 0.68, 0.4] }}

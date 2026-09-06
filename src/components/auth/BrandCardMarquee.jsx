@@ -116,7 +116,7 @@ function AtsScoreCard() {
             <span className="text-sm text-gray-400 font-medium">/ 100</span>
           </div>
         </div>
-        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E6EFE8] text-[#2F4A3A]">
+        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E8F1FC] text-[#1554AD]">
           <TrendingUp size={10} strokeWidth={2.5} />
           +12 pts
         </div>
@@ -127,7 +127,7 @@ function AtsScoreCard() {
           className="absolute inset-y-0 left-0 rounded-full"
           style={{
             width: "82%",
-            background: "linear-gradient(90deg, #5B7C6A 0%, #2F4A3A 100%)",
+            background: "linear-gradient(90deg, #79B4F4 0%, #1554AD 100%)",
           }}
         />
       </div>
@@ -164,7 +164,7 @@ function ScoreEvolutionCard() {
             <span className="text-xs text-gray-400">pts overall</span>
           </div>
         </div>
-        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E6EFE8] text-[#2F4A3A]">
+        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E8F1FC] text-[#1554AD]">
           V1 → V3
         </div>
       </div>
@@ -176,14 +176,14 @@ function ScoreEvolutionCard() {
       >
         <defs>
           <linearGradient id="ev-fill" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="#5B7C6A" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#5B7C6A" stopOpacity="0" />
+            <stop offset="0%" stopColor="#2474D8" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="#2474D8" stopOpacity="0" />
           </linearGradient>
         </defs>
         <polygon points={area} fill="url(#ev-fill)" />
         <polyline
           points={points}
-          stroke="#2F4A3A"
+          stroke="#1554AD"
           strokeWidth="2"
           fill="none"
           strokeLinecap="round"
@@ -201,7 +201,7 @@ function ScoreEvolutionCard() {
             cy={y}
             r="2.5"
             fill="white"
-            stroke="#2F4A3A"
+            stroke="#1554AD"
             strokeWidth="1.5"
           />
         ))}
@@ -277,7 +277,7 @@ function RewriteCard() {
     <PreviewCard width={340}>
       <div className="flex items-start justify-between mb-3">
         <Label>AI Rewrite</Label>
-        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E6EFE8] text-[#2F4A3A]">
+        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E8F1FC] text-[#1554AD]">
           <Sparkles size={10} strokeWidth={2.5} />
           Suggested
         </div>
@@ -297,8 +297,8 @@ function RewriteCard() {
           <ArrowRight size={14} />
         </div>
 
-        <div className="rounded-2xl bg-[#E6EFE8] p-3">
-          <div className="text-[9px] uppercase tracking-wide text-[#2F4A3A] mb-1 font-semibold">
+        <div className="rounded-2xl bg-[#E8F1FC] p-3">
+          <div className="text-[9px] uppercase tracking-wide text-[#1554AD] mb-1 font-semibold">
             Rewritten
           </div>
           <div className="text-[12.5px] text-gray-900 leading-snug">
@@ -346,7 +346,7 @@ function KeywordsCard() {
           {present.map((k) => (
             <span
               key={k}
-              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-[#E6EFE8] text-[#2F4A3A]"
+              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-[#E8F1FC] text-[#1554AD]"
             >
               <Check size={9} strokeWidth={3} />
               {k}
@@ -384,7 +384,7 @@ function StrengthsCard() {
     <PreviewCard width={310}>
       <div className="flex items-start justify-between mb-4">
         <Label>Standout Strengths</Label>
-        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E6EFE8] text-[#2F4A3A]">
+        <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-[10px] font-semibold bg-[#E8F1FC] text-[#1554AD]">
           5 total
         </div>
       </div>
@@ -392,7 +392,7 @@ function StrengthsCard() {
       <div className="space-y-2.5">
         {strengths.map((s, i) => (
           <div key={i} className="flex items-start gap-3">
-            <div className="h-8 w-8 rounded-xl bg-[#E6EFE8] flex items-center justify-center text-[#2F4A3A] shrink-0">
+            <div className="h-8 w-8 rounded-xl bg-[#E8F1FC] flex items-center justify-center text-[#1554AD] shrink-0">
               <Sparkles size={13} />
             </div>
             <div className="flex-1 min-w-0">

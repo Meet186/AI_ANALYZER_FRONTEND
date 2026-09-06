@@ -14,9 +14,7 @@ function resolveInitial() {
     // Storage can be unavailable in private or locked-down browsing modes.
   }
 
-  return window.matchMedia?.("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
+  return "light";
 }
 
 export function ThemeProvider({ children }) {
